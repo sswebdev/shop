@@ -22,7 +22,7 @@ product_data = [
 Product.destroy_all if Rails.env.development?
 
 product_data.each do |item|
-  product = Product.new(name: item.name, price: item.price)
+  product = Product.new(name: item[:name], price: item[:price])
   product.save
 end
 

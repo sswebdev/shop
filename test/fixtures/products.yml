@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+appliance:
+  name: Waffle Maker
+  price: 2499
+
+couch:
+  name: Couch
+  price: 99999
