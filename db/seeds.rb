@@ -6,14 +6,6 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-class ActiveRecord::Base
-
-  def self.sample
-    offset(rand(0...count)).first
-  end
-
-end
-
 # Prices are in cents
 product_data = [
   { name: "Waffle Maker", price: '2499' },
