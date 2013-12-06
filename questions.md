@@ -1,5 +1,12 @@
-## Can you write code to answer each question?
-**Hint: Each answer can be written with one line of code.**
+~~~ ruby
+ # Given:
+    the_order = Order.sample
+    the_product = Product.sample
+~~~
+
+**Can you write code to answer each question?**
+
+*Hint: Each answer can be written with one line of code.*
 
 1. How many customers do we have?
 
@@ -10,10 +17,6 @@
 4. How much does the average customer spend per order?
 
 
-
-Given:
-  the_order = Order.sample
-  the_product = Product.sample
 
 5. How many items in the_order cost more than $100?
 
